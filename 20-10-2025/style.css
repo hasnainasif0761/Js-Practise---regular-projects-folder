@@ -1,0 +1,171 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+background: #120e0c; 
+}
+
+:root
+{
+    --font-size:6px;
+    --orange:#E29639;
+    --red: #c6251e;;
+    --yellow: #d4bb3d;
+    --blue:rgb(105, 130, 161);
+    --gray:rgb(132, 132, 132);
+    --green:hsl(89, 57%, 43%);
+    --browm:#C77761;
+    --purple:#905DC5;
+    --light-blue:#43a8c1;
+}
+/* body
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+.container
+{
+    width: 90%;
+    height: 90vh;
+    /* border: 1px solid red; */
+    margin-left: 60px;
+    text-align: center;
+    /* padding-top: 30px; */
+}
+.container>h1
+{
+    color: #E29639;
+    margin-top: 10px;
+}
+table
+{
+    vertical-align: middle;
+    text-align: center;
+    /* position: relative; */
+    width: 100%;
+    table-layout: fixed;
+}
+td
+{
+    border: 2px solid rgb(11, 15, 12);
+    width: 70px;
+    height: 50px;
+    position: relative;
+    width: auto;
+    transition: all 0.5s ease;
+    /* background: white; */
+}
+.number
+{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    font-size: var(--font-size);
+    font-weight: bold   ;
+}
+.mass
+{
+    top: 3px;
+    right: 4px;
+    position: absolute;
+    font-size: var(--font-size);
+}
+.symbol
+{
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-top: 2px; */
+}
+/* .name
+{
+    / margin-top: 5px; */
+.name>p
+{
+    font-size: 7px;
+}
+.equal
+{
+border: 0px;
+}
+.orange
+{
+    border-color: var(--orange);
+    color: var(--orange);
+}
+.red
+{
+    border-color: var(--red);
+    color: var(--red);
+}
+.yellow
+{
+    border-color: var(--yellow);
+    color: var(--yellow);
+}
+.blue
+{
+    border-color: var(--blue);
+    color: var(--blue);
+}
+.brown
+{
+    border-color: var(--browm);
+    color: var(--browm);
+}
+.lightblue
+{
+    border-color: var(--light-blue);
+    color: var(--light-blue);
+}
+.purple
+{
+    border-color: var(--purple);
+    color: var(--purple);
+}
+.gray
+{
+    border-color: var(--gray);
+    color: var(--gray);
+}
+.green
+{
+    border-color: var(--green);
+    color: var(--green);
+}
+.skyblue
+{
+    color: #ABCFDA;
+    border-color:#ABCFDA ;
+}
+.lightpurple
+{
+    color:  #c192c5;
+    border-color:#c192c5;
+}
+td:hover {
+  transform: scale(1.5);
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  background: black;
+  cursor: pointer;
+}
+.orange:hover
+{
+     box-shadow: 0 0 15px var(--orange);
+}
+.red:hover 
+{
+     box-shadow: 0 0 15px var(--red);
+ }
+.green:hover 
+{ 
+    box-shadow: 0 0 15px var(--green);
+}
