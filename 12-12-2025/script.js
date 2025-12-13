@@ -53,7 +53,13 @@
 // console.log("New Date",newdate);
 
 
+// Functions
 
+// Date() Methods  // uncontrolled
+// myFunction(); funcntion control
+
+// 1. pure function
+// 2. impure function
 
 
 
