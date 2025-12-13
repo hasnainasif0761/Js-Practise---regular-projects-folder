@@ -36,14 +36,18 @@
 // console.log('Your Date is =>',mydate);
 
 
-var mydate = new Date(2030, 0, 30); 
-console.log(mydate);
+// var mydate = new Date(2030, 0, 30); 
+// console.log(mydate);
 
-var currentDate = new Date();
-console.log('The Current Date is =>',currentDate);
+// var currentDate = new Date();
+// console.log('The Current Date is =>',currentDate);
 
-var diffrence = mydate - currentDate;
-console.log('The Diffrence is =>',diffrence);
+// var diffrence = mydate - currentDate;
+// var seconds = diffrence / (1000 * 60 * 60 * 24 * 30 *12);
+// console.log("Second",seconds);
+
+
+
 
 
 
