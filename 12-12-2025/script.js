@@ -62,10 +62,23 @@
 // 2. impure function
 
 
-function  myFunction(){
-    console.log('Hello World');
-}
-myFunction();
+// function  myFunction(){
+//     console.log('Hello World');
+// }
+// myFunction();
+
+
+// function myTime (){
+//     console.log("test");
+//     var  date = new Date();
+//     var minute = date.getDate();
+//     var hour = date.getHours();
+//     var fullTime = minute + " : " + hour;
+//     console.log("date",fullTime);
+// }
+// myTime();
+
+
 
 
 
